@@ -12,7 +12,7 @@
 .footer-logo {
   display: block;
 
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.33333;
@@ -117,5 +117,75 @@
 }
 
 .footer-icon .linki:focus-visible {
+  background-color: #31d0aa;
+}
+
+.footer-subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 14px;
+  padding-left: 83px;
+}
+.footer-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+}
+.footer-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0;
+  background-color: #2e2f42;
+  border: 1px solid;
+  border-color: #fff;
+  border-radius: 4px;
+  padding: 8px 16px;
+  width: 264px;
+  height: 20px;
+  color: #ffffff;
+  outline: none;
+}
+.footer-input:focus {
+  border-color: #31d0aa;
+}
+
+.footer-input::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.button-subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  max-width: 165px;
+  background: #4d5ae5;
+  border: none;
+}
+.button-fast {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.button-subscribe:hover,
+.button-subscribe:focus {
   background-color: #31d0aa;
 }
