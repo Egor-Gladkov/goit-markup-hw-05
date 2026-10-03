@@ -169,7 +169,7 @@
   letter-spacing: 0.04em;
   color: #fff;
 }
-.buttex-subscribe {
+.button-subscribe {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -184,16 +184,14 @@
   border: none;
   color: #fff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.buttex-fast {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
 }
-.buttex-subscribe:hover,
-.buttex-subscribe:focus {
+
+.button-subscribe:hover,
+.button-subscribe:focus {
   background-color: #31d0aa;
 }
