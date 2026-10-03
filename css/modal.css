@@ -109,7 +109,7 @@
 }
 
 .form-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
   letter-spacing: 0.04em;
   font-weight: 400;
 }
@@ -208,7 +208,7 @@
 }
 
 .user-privacy {
-  margin-top: 8px;
+  margin-top: 0px;
   margin-bottom: 24px;
 }
 
